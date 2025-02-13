@@ -12,7 +12,7 @@
 
   outputs = { self, nixpkgs, nix-on-droid }: {
 
-    nixOnDroidConfigurations.default = nix-on-droid.lib.nixOnDroidConfiguration {
+    nixOnDroidConfigurations.agility = nix-on-droid.lib.nixOnDroidConfiguration {
       pkgs = import nixpkgs { system = "aarch64-linux"; };
       modules = [ ./nix-on-droid.nix ];
     };
