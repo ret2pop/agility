@@ -1,0 +1,14 @@
+* Introduction
+Agility is a nix-on-droid system that aims to act like a versatile downloader for
+different kinds of media, including git repositories, tarballs, and youtube videos.
+To install, install ~git~ on your nix-on-droid installation.
+** Why?
+It's obviously true that using a terminal on a phone is not ideal. However, as it
+stands right now, it is the most versatile way to execute common applications like
+~rsync~ or ~git~ while allowing other applications on the phone to be able to read your
+downloaded material. In my experience, doing this is very difficult without either
+nix-on-droid or Termux, and because I use NixOS, I figured nix-on-droid was the
+correct choice.
+
+Note that I use this in conjunction with my monorepo and Orgo in order to read
+my Latex org mode files offline.

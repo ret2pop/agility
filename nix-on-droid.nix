@@ -9,6 +9,7 @@
     rsync
     # Some common stuff that people expect to have
     #procps
+    openssh
     killall
     #diffutils
     #findutils
