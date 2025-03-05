@@ -15,6 +15,8 @@
     #findutils
     #utillinux
     #tzdata
+    curl
+    unixtools.ping
     cmatrix
     nmap
     hostname
