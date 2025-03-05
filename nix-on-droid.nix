@@ -19,7 +19,9 @@
     unixtools.ping
     cmatrix
     nmap
+    ncurses
     hostname
+    htop
     man
     gnugrep
     gnupg
