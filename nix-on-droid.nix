@@ -7,6 +7,7 @@
     vim # or some other editor, e.g. nano or neovim
     tmux
     rsync
+    emacs
     # Some common stuff that people expect to have
     #procps
     openssh
