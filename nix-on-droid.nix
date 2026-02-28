@@ -27,6 +27,7 @@
     gnupg
     gnused
     gnutar
+    git-lfs
     git
     bzip2
     gzip
