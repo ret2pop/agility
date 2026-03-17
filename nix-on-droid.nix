@@ -1,21 +1,14 @@
-{ config, lib, pkgs, ... }:
+{ pkgs, ... }:
 
 {
   # Simply install just the packages
   environment.packages = with pkgs; [
-    # User-facing stuff that you really really want to have
-    vim # or some other editor, e.g. nano or neovim
+    vim
     tmux
     rsync
     emacs
-    # Some common stuff that people expect to have
-    #procps
     openssh
     killall
-    #diffutils
-    #findutils
-    #utillinux
-    #tzdata
     curl
     unixtools.ping
     cmatrix
