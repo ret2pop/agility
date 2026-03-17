@@ -18,7 +18,7 @@
     nixOnDroidConfigurations.agility = nix-on-droid.lib.nixOnDroidConfiguration {
       pkgs = import nixpkgs { system = "aarch64-linux"; };
       modules = [ ./nix-on-droid.nix ];
-      specialArgs = attrs;
+      extraSpeicalArgs = attrs;
     };
 
   };
