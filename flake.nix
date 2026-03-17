@@ -13,11 +13,12 @@
     };
   };
 
-  outputs = { self, nixpkgs, nix-on-droid }: {
+  outputs = { nixpkgs, nix-on-droid, home-manager, ... }@attrs: {
 
     nixOnDroidConfigurations.agility = nix-on-droid.lib.nixOnDroidConfiguration {
       pkgs = import nixpkgs { system = "aarch64-linux"; };
       modules = [ ./nix-on-droid.nix ];
+      specialArgs = attrs;
     };
 
   };
