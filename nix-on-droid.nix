@@ -28,8 +28,10 @@
     xz
     zip
     unzip
+    zsh
   ];
 
+  user.shell = "${pkgs.zsh}/bin/zsh";
   # Backup etc files instead of failing to activate generation if a file already exists in /etc
   environment.etcBackupExtension = ".bak";
 
@@ -40,6 +42,8 @@
   nix.extraOptions = ''
     experimental-features = nix-command flakes
   '';
+
+  home-manager.config = ./home.nix;
 
   # Set your time zone
   time.timeZone = "America/Vancouver";

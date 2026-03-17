@@ -1,7 +1,5 @@
 { pkgs, ... }:
 {
-  environment.packages = [
-  ];
   programs.git = {
     enable = true;
     package = pkgs.gitFull;
