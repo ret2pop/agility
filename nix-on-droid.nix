@@ -26,7 +26,6 @@
     xz
     zip
     unzip
-    zsh
   ];
 
   user.shell = "${pkgs.zsh}/bin/zsh";
